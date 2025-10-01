@@ -35,11 +35,12 @@
       color: #555;
       margin-bottom: 20px;
     }
-    .qrcode img {
+    .video-box video {
       width: 220px;
       height: 220px;
       border-radius: 12px;
       box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      object-fit: cover;
     }
     .btn {
       display: inline-block;
@@ -72,19 +73,22 @@
 </head>
 <body>
   <div class="card">
-    <h1>🎯 三四星水牌每日處理</h1>
-    <p>下午三點準時發送過關牌組<br>五點尚未看到的直接私訊</p>
+    <h1>🌟三四星水牌每日處理🌟</h1>
+    <p>🔊下午三點準時發送過關牌組<br>📞五點尚未看到號碼的直接私訊</p>
     
-    <div class="qrcode">
-      <img src="https://qr-official.line.me/sid/L/948704857.png" alt="LINE QR Code">
+    <div class="video-box">
+      <!-- 影片檔案，請上傳到 repo 並改成正確檔名 -->
+      <video autoplay loop muted playsinline>
+        <source src="your-video.mp4" type="video/mp4">
+        您的瀏覽器不支援影片播放
+      </video>
     </div>
 
     <a class="btn" href="https://line.me/ti/p/~948704857" target="_blank">👉 點我立即加入</a>
 
     <div class="footer">
-      本服務僅提供資訊分享，請理性參與
+      已有4,586位領取
     </div>
   </div>
 </body>
 </html>
-
